@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+/*  ------------------------------------
+        ///// Google Fonts //////
+ -------------------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ 
+
+
+ /* Deafult Stylying */
+
+ * { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+div#root {
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div#root div.centerpane {
+    background: whitesmoke;
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div#root div.centerpane > main {
+    padding: 30px;
+    width: 100%;
+}
+header {
+    color: white;
+    background: #457B9D;
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+header a img {
+    filter: invert(1);
+    margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header a h1 {
+    color: white;
+    margin-left: 10px;
+    font-size: 200%;
 }
+
+header a:hover,
+header a:active {
+    color: #aa63da;
+}
+
+header div.login {
+    flex: 1;
+    margin-right: 0.5rem;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+footer {
+    height: 50px;
+    display: grid;
+    place-items:center;
+    background: #A8DADC;
+}
+
+footer a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #1D3557;
+}
+
+nav {
+    display: flex;
+    overflow: hidden;
+    background-color:#1D3557 ;
+}
+
+nav div.navItem {
+    padding: 10px;
+}
+
+
+nav div.navItem:hover {
+    background: #A8DADC;
+}
+
+nav div.navItem a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav div.navItem a.navSelected {
+    color:#000;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
