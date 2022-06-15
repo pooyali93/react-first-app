@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+
+import './Header.css'
+
 function Header() {
     // Properties ---------
     //  Hooks ---------
@@ -6,12 +10,12 @@ function Header() {
     // View ---------
     return (
         <header>
-            <a>
+            <Link to="/">
             <img src="https://img.icons8.com/small/50/undefined/gender-neutral-user.png"></img>
-            </a>
-            <a>
+            </Link>
+            <Link to="/">
              <h1>React First App</h1>
-            </a>
+            </Link>
             <div className="login">
                 <p>Welcome Pooya</p>
             </div>
