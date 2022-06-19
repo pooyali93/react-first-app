@@ -1,3 +1,6 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
 import Layout from './components/layouts/Layout.js'
 import Home from './components/pages/Home.js';
 import Signin from './components/pages/Signin.js';
@@ -8,9 +11,16 @@ import './App.css';
 
 function App() {
   return (
-    <Layout>
-    <Home/>
-    </Layout>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='/signin' element={<Signin />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<PageNotFound />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter> 
   );
 }
 

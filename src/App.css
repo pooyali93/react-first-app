@@ -36,75 +36,9 @@ div#root div.centerpane > main {
     padding: 30px;
     width: 100%;
 }
-header {
-    color: white;
-    background: #457B9D;
-    display: flex;
-}
-
-header a img {
-    filter: invert(1);
-    margin-left: 10px;
-}
-
-header a h1 {
-    color: white;
-    margin-left: 10px;
-    font-size: 200%;
-}
-
-header a:hover,
-header a:active {
-    color: #aa63da;
-}
-
-header div.login {
-    flex: 1;
-    margin-right: 0.5rem;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
 
 
-footer {
-    height: 50px;
-    display: grid;
-    place-items:center;
-    background: #A8DADC;
-}
 
-footer a {
-    font-size: 1rem;
-    text-decoration: none;
-    color: #1D3557;
-}
-
-nav {
-    display: flex;
-    overflow: hidden;
-    background-color:#1D3557 ;
-}
-
-nav div.navItem {
-    padding: 10px;
-}
-
-
-nav div.navItem:hover {
-    background: #A8DADC;
-}
-
-nav div.navItem a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav div.navItem a.navSelected {
-    color:#000;
-    
-}
 
 
 
