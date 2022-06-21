@@ -12,15 +12,15 @@ const getLinkStyle = ({isActive}) => (isActive ? 'navSelected' : null);
     return (
         <nav>
             <div className="navItem">
-                <NavLink to="/" className={getLinkStyle}>Home</NavLink>
+                <NavLink to="/" className={getLinkStyle}>My Modules</NavLink>
             </div>
 
             <div className="navItem">
-                <NavLink to="/signin" className={getLinkStyle}>Sign in</NavLink>
+                <NavLink to="/myassessments" className={getLinkStyle}>My Assessments</NavLink>
             </div>
 
             <div className="navItem">
-                <NavLink to="/contact" className={getLinkStyle}>Contact us</NavLink>
+                <NavLink to="/myschedule" className={getLinkStyle}>My Schedule</NavLink>
             </div>
         </nav>
     )

@@ -1,4 +1,4 @@
-function Signin() {
+function MyModules() {
     // Properties ---------
     //  Hooks ---------
     // Contect ---------
@@ -6,9 +6,11 @@ function Signin() {
     // View ---------
     return (
 
-        <h1>Signin</h1>
+
+        <h1>My Modules</h1>
+        
     )
 
 }
 
-export default Signin;
+export default MyModules;

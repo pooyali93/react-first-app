@@ -1,15 +1,18 @@
-export default function PageNotFound() {
+function MySchedule() {
     // Properties ---------
     //  Hooks ---------
     // Contect ---------
     // Methods ---------
     // View ---------
     return (
-
+        <>
+        <h1>My Schedule</h1>
         <section>
-        <h1>Page not found</h1>
+            Content
         </section>
+        </>
     )
 
 }
 
+export default MySchedule;
