@@ -1,4 +1,4 @@
-function Home() {
+function MyAssessments() {
     // Properties ---------
     //  Hooks ---------
     // Contect ---------
@@ -6,9 +6,9 @@ function Home() {
     // View ---------
     return (
 
-        <h1>Home</h1>
+        <h1>My Assessments</h1>
     )
 
 }
 
-export default Home;
+export default MyAssessments;
