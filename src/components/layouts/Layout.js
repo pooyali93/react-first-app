@@ -2,6 +2,8 @@ import Header from './Header.js'
 import Navbar from './Navbar.js';
 import Footer from './Footer.js'
 
+import './Layout.css';
+
 
 function Layout(props) {
     // Properties ---------
@@ -10,7 +12,7 @@ function Layout(props) {
     // Methods ---------
     // View ---------
     return (
-        <div className='centerpane'>
+        <div className='centerWrapper'>
           <Header />
           <Navbar />
             <main>
